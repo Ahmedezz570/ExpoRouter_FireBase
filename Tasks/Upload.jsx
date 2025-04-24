@@ -33,6 +33,7 @@ export default function App() {
         });
 
         const data = await res.json();
+        console.log('Upload response:', data);
         setImageUrl(data.secure_url);
         setLoading(false);
       } catch (error) {

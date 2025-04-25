@@ -18,6 +18,12 @@ export default function TabLayout() {
         <Ionicons name='person-outline' size={22} color={color} />
       )
     }} />
+<Tabs.Screen name='Upload' options={{
+      title: 'Uplaod Image',
+      tabBarIcon: ({color}) => (
+        <Ionicons name='cloud-upload-outline' size={22} color={color} />
+      )
+    }} />
      
 
     

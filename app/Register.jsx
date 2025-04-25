@@ -33,14 +33,14 @@ const Register = () => {
     }
   return (
     <View style={styles.container}>
-        <View style={styles.header}>
-      <Text style={styles.text}>Header for page</Text>
+      <View style={styles.header}>
+         <Text style={styles.text}>Header for page</Text>
       </View>
       <View style={styles.header2}>
-      <TextInput placeholder='Enter your name' value={name} onChangeText={text => setName(text)} style={styles.input}/>
-      <TextInput placeholder='Enter your email' value ={email} onChangeText={text => setEmail(text)}style={styles.input}/>
-      <TextInput placeholder='Enter your password' value ={password} onChangeText={text => setPassword(text)} secureTextEntry style={styles.input}/>
-      <Button title='Register' onPress={() =>handleRegister()}/>
+         <TextInput placeholder='Enter your name' value={name} onChangeText={text => setName(text)} style={styles.input}/>
+         <TextInput placeholder='Enter your email' value ={email} onChangeText={text => setEmail(text)}style={styles.input}/>
+         <TextInput placeholder='Enter your password' value ={password} onChangeText={text => setPassword(text)} secureTextEntry style={styles.input}/>
+         <Button title='Register' onPress={() =>handleRegister()}/>
       </View>
          
     </View>

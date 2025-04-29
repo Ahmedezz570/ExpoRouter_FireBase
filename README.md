@@ -13,6 +13,7 @@ For Login, I used the `signInWithEmailAndPassword(auth, email, password)` method
 ## FireStore
 
 For add , I used `addDoc(collection(db , "newProducts")` 
+
   `db:` This is the Firestore database object connected to your Firebase project.
 
   `newProducts`: This is the name of the collection in which I store my products.

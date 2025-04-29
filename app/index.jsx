@@ -2,7 +2,7 @@ import { View, Text , Button , StyleSheet , Pressable} from 'react-native';
 import React from 'react';
 import Register from './Register';
 import Login from './Login';
-import Upload from './(tabs)/Upload';
+// import Upload from '../Tasks/Upload';
 import { useRouter } from 'expo-router';
 const index = () => {
     const router = useRouter();
@@ -19,6 +19,11 @@ const index = () => {
 
       <Pressable style={styles.btn} onPress={() => router.push("Login")}>
         <Text style={styles.txt}>Login</Text>
+      </Pressable>
+
+      
+      <Pressable style={styles.btn} onPress={() => router.push("Quiz")}>
+        <Text style={styles.txt}>Quiz</Text>
       </Pressable>
     </View>
      </>
